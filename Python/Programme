@@ -1,0 +1,34 @@
+print('The company requires you to supply this information.')
+firstname = input('First Name: ')
+lastname = input('Last Name: ')
+training = input('Trained (Y) (N) :   If so what month:')
+birthday = input('Birth Date: ')
+phone = input('Phone Number: ')
+email = input('Email Address: ')
+hcolour = input('Hair Colour: ')
+ecolour = input('Eye Colour: ')
+height = input('Height: ')
+print()
+print()
+print('--------------------')
+
+print()
+
+print('Employee Name: ' + lastname.capitalize() + ', ' + firstname.capitalize())
+print('Employee Number: 966-8563')
+print('Trained: ' + print(training))
+
+print()
+
+print('Contact Information:')
+print('Email: ' + print(email))
+print('Phone Number: ' + print(phone))
+
+print()
+
+print('Features: ')
+print('Hair Colour: ' + print(hcolour))
+print('Eye Colour: ' + print(ecolour))
+print('Height: ' + print(height))
+print()
+print('--------------------')

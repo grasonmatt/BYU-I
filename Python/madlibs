@@ -1,0 +1,17 @@
+print('Mad Libs')
+print('Please provide the folloiwng;')
+adj_1 = input('Adjective: ')
+adj_2 = input('Adjective: ')
+ani = input('Animal: ')
+verb_1 = input('Verb: ')
+exc = input('Exclamation: ')
+noun_1 = input('Noun: ')
+verb_2 = input('Verb: ')
+print()
+print('The Alpacaplyse')
+print()
+print(f'Today was a seemingly normal day, I did feel a little ' + adj_1 + 
+' and ' + adj_2 + ' when I woke up. In fact, my pet ' + ani + ' was poking my'
+' face. My pet ' + ani + ' Jim was ' + verb_1 + '. And he needed his ' + exc +
+'! I dropped his ' + noun_1 + ' on my toes! ' + exc.capitalize() + ' I need to put that '
+'away where Jim cannot ' + verb_2 + ' it.')
