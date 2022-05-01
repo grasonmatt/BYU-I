@@ -5,9 +5,9 @@ Fonts are separated by a | */
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&display=swap');
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #396E94   ;
-  --secondary-color: #E7C24F ;
-  --accent1-color: #A42212;
+  --primary-color: #3B302B   ;
+  --secondary-color: #DDA6B4 ;
+  --accent1-color: #396E94;
   --accent2-color: white;
 
   /* change the values below to your chosen font(s) */
