@@ -2,37 +2,37 @@ div #content {
     max-width: 1600px;
     margin: 0 auto;
 }
-/* 
 nav a 
 #hero-msg h1, #hero-msg h4
 .button-box
-main section
+main section {
+    background-color: #D9D2DB;
+}
 
 #background {
     height: 725px;
 }
 body {
-    background-color: ;
+    background-color: #FAF8D4;
 }
 header {
-    background-color: ;
+    background-color: #C3BAAA;
 }
 nav a:hover {
-    background-color: ;
+    background-color: #C6BEC2;
 }
 .book, .join {
-    background-color: ;
+    background-color: #C3BAAA;
 }
 .book:hover, .join:hover {
-    background-color: ;
+    background-color: #EBDCCB;
 }
 #background {
-    background-color: ;
+    background-color: #D9D2DB;
 }
 .msg {
-    background-color: ;
+    background-color: #C6BEC2;
 }
 footer {
-    background-color: ;
+    background-color: #FAF8D4;
 }
-*/
