@@ -48,9 +48,9 @@ nav a:hover {
     background-color: #C6BEC2;
     color: black;
 }
-    .icon {
-        width: 80px;
-        height: 80px;
+.icon {        
+    width: 80px;       
+    height: 80px;
     }
 footer {
     background-color: #FAF8D4;
