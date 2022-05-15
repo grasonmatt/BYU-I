@@ -7,8 +7,10 @@ nav a {
     text-decoration: none;
 }
 #hero-msg h1, #hero-msg h4 {
-    background-color: #D9D2DB;
     text-align: center;
+}
+#hero-img {
+    width: 100%;
 }
 .button-box {
     background-color: #D9D2DB;
@@ -18,7 +20,9 @@ main section {
     background-color: #D9D2DB;
     text-align: center;
 }
-
+.card-img {
+    width: 200px;
+}
 #background {
     height: 725px;
 }
@@ -27,7 +31,7 @@ body {
     color: black;
 }
 header {
-    background-color: #C3BAAA;
+    background-color: #c4bbab;
     color: black;
 }
 nav a:hover {
@@ -48,10 +52,12 @@ nav a:hover {
     background-color: #C6BEC2;
     color: black;
 }
+.logo {
+    width: 80px;
+}
 .icon {        
-    width: 80px;       
-    height: 80px;
-    }
+    width: 80px;
+}
 footer {
     background-color: #FAF8D4;
     color: black;
