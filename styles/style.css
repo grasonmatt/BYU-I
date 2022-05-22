@@ -1,20 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&display=swap');
+.home-title {
+    font-size: 2em;
+    margin-top: 10px;
+}
 div #content {
     max-width: 1600px;
     margin: 0 auto;
 }
+#logo_link {
+    padding-top: 5px;
+}
 nav a {
     text-align: center;
     text-decoration: none;
+    font-family: 'Noto Sans', Times, sans-serif;
+    padding-top: 35px;
 }
 #hero-msg h1, #hero-msg h4 {
     text-align: center;
+    font-family: 'Helvetica', Arial, sans-serif;
+}
+h2 {
+    margin: 0;
 }
 #hero-img {
     width: 100%;
 }
 .button-box {
-    background-color: #D9D2DB;
     text-align: center;
+    margin-bottom: 50px;
 }
 main section {
     background-color: #D9D2DB;
@@ -26,6 +40,10 @@ main section {
 body {
     background-color: #FAF8D4;
     color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 header {
     background-color: #c4bbab;
@@ -37,6 +55,10 @@ nav a:hover {
 .book, .join {
     background-color: #C3BAAA;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover {
     background-color: #EBDCCB;
@@ -48,19 +70,37 @@ nav a:hover {
 .msg {
     background-color: #C6BEC2;
     color: black;
+    padding: 35px;
+}
+.msp p{
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 .logo {
     width: 80px;
 }
 .icon {        
     width: 80px;
+    padding-top: 10px;
+}
+main section img {
+    box-sizing: border-box;
+}
+.card-img {
+    margin: 200px 0;
+    border: 10px solid black
 }
 footer {
     background-color: #FAF8D4;
     color: black;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 footer a {
     text-decoration: none;
+}
+footer .social img {
+    padding-top: 15px;
 }
 footer h3 a:hover {
     text-decoration: underline;
