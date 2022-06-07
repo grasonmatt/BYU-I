@@ -50,7 +50,6 @@ h2 {
     margin-bottom: 50px;
 }
 main section {
-    background-color: #D9D2DB;
     text-align: center;
 }
 #background {
@@ -143,12 +142,12 @@ main section img {
 }
 .card-img, .mountains {
     margin: 200px 0;
-    border: 10px solid black;
+    border: 10px solid #D9D2DB;
     width: 100%;
 }
 .mountains {
     margin: 200px 0;
-    border: 10px solid black;
+    border: 10px solid #D9D2DB;
     width: 100%;
     grid-column: 2/7;
     grid-row: 5/8;
