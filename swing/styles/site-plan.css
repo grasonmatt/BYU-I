@@ -1,7 +1,7 @@
 /* if you are using any Google fonts change the font names below to your fonts. 
 Any spaces in your font name should be replaced with a +. 
 Fonts are separated by a | */
-@import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato');
+@import url('https://fonts.google.com/specimen/Tai+Heritage+Pro?category=Serif&preview.text=to%20be%20or%20not%20to%20be%20that%20is%20the%20question&preview.text_type=custom#standard-styles');
 
 /* colour palette: C1B8C8 A9DDD6 91ADC2 7A8B99 9BA0BC */
 
@@ -12,7 +12,7 @@ Fonts are separated by a | */
   --accent2-color: white;
 
   --heading-font: "IM Fell French Canon SC";
-  --paragraph-font: Lato, Helvetica, sans-serif;
+  --paragraph-font: 'Tai Heritage Pro', Verdana, serif;
 
   --headline-color-on-white: #A9DDD6;  /* headlines on a white background */ 
   --headline-color-on-color: white; /* headlines on a colored background */ 
