@@ -9,7 +9,7 @@ div #content {
 /* this is the header*/
 .head {
     display: grid;
-    grid-template-columns: repeat(1fr, 5);
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     background-color: #ffdef1;
     flex-direction: row;
 }
@@ -37,7 +37,7 @@ main {
 
 /* footer parts */
 .foot {
-    grid-template-columns: 4;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     background-color: #ffdef1;
 }
 
@@ -64,8 +64,8 @@ main {
 
 /* stories page */
 #story-grid {
-    grid-template-columns: 2;
-    grid-template-rows: 6;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 .title {
     color: #467ddb;
@@ -88,7 +88,6 @@ main {
 }
 .languages {
     display: flex;
-    flex: end;
 }
 .flags {
     height: 60px;
