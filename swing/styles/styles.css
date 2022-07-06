@@ -1,0 +1,96 @@
+* {
+    outline: 1px solid;
+}
+div #content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+/* this is the header*/
+.head {
+    display: grid;
+    grid-template-columns: repeat(1fr, 5);
+    background-color: #ffdef1;
+    flex-direction: row;
+}
+.t-links {
+    text-align: center;
+    text-decoration: none;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    color: #7bd1cf;
+    background-color: #20bed6;
+}
+.current-page {
+    color: #4f4f4f;
+    background-color: #aeafb0;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+/* this is the main section */
+main {
+    background-color: #d09ef0;
+}
+
+/* footer parts */
+.foot {
+    grid-template-columns: 4;
+    background-color: #ffdef1;
+}
+
+.b-links {
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    text-decoration: none;
+}
+
+.social-icon {
+    height: 50px;
+    width: 50px;
+    padding-top: 1em;
+}
+
+/* this is the index bits */
+#learner {
+    width: 35%;
+    border: 1px solid black;
+}
+
+/* learn page which doesn't seem to need it much */
+
+/* stories page */
+#story-grid {
+    grid-template-columns: 2;
+    grid-template-rows: 6;
+}
+.title {
+    color: #467ddb;
+}
+
+/* family tree page */
+#family-main {
+    grid-template-columns: 1fr 2fr;
+}
+#family-tree {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row: 1 / 1;
+}
+#tree {
+    width: 35%;
+}
+.desc {
+    grid-column: 2/3;
+}
+.languages {
+    display: flex;
+    flex: end;
+}
+.flags {
+    height: 60px;
+    width: 66px;
+}
