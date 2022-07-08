@@ -1,6 +1,6 @@
-* {
+/* * {
     outline: 1px solid;
-}
+} */
 div #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -31,20 +31,18 @@ div #content {
 }
 
 /* this is the main section */
-main {
-    background-color: #d09ef0;
-}
 
 /* footer parts */
 .foot {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     background-color: #ffdef1;
+    position: absolute;
+    width: 100%;
 }
 
 .b-links {
     text-align: center;
     padding-top: 1em;
-    padding-bottom: 1em;
     text-decoration: none;
 }
 
@@ -81,7 +79,7 @@ main {
     grid-row: 1 / 1;
 }
 #tree {
-    width: 35%;
+    width: 100%;
 }
 .desc {
     grid-column: 2/3;
@@ -93,3 +91,21 @@ main {
     height: 60px;
     width: 66px;
 }
+/* fancy component buttons for available languages */
+.btn {
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  .blue {
+    border-color: #2196F3;
+    color: dodgerblue
+  }
+  
+  .blue:hover {
+    background: #2196F3;
+    color: white;
+  }
